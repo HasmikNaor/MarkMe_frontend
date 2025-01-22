@@ -1,0 +1,24 @@
+.new-template-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
+  &__btn {
+    background-color: blue;
+    color: white;
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(165, 165, 247);
+    }
+    &:disabled {
+      cursor: not-allowed;
+      background-color: gray;
+    }
+  }
+  &__subtitle {
+    background-color: rgb(206, 249, 249);
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+  }
+}

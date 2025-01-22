@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+}
+.main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@import "./styles/normalize.scss";
+
+@import "./components/Template/template";
+@import "./components/NewTemplateForm/new-template-form";
+@import "./components/TemplateList/template-list";
